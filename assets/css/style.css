@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+h2, h3 {
+    margin: 5px 0px;
+    padding: 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    background-color: deeppink;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user, .pc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.risultato {
+    margin-top: 40px;
+
+}
